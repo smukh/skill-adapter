@@ -14,6 +14,8 @@
 
 > Keep the skills you like when you change models.
 
+![Skill Adapter: adapt existing skills for a target model while preserving their workflow and keeping the original intact.](assets/skill-adapter-banner.png)
+
 One Agent Skill that adapts existing skills for a target model while preserving their purpose, workflow, and requirements. The agent you already use does the rewriting—no service or separate API key.
 
 Ask it to adapt a skill, and it produces a separate package with a readable change report. Your original stays intact. If no change is justified, it says so.
@@ -99,7 +101,7 @@ If you use Skill Adapter in your work, you can cite the repository:
 
 ```bibtex
 @online{smukh2026skilladapter,
-  author = {smukh},
+  author = {Mukhopadhyay, Sromana},
   title = {Skill Adapter},
   date = {2026-09-27},
   url = {https://github.com/smukh/skill-adapter},
