@@ -1,0 +1,14 @@
+{
+  "source_unchanged:LICENSE": true,
+  "resource_preserved:LICENSE": true,
+  "source_unchanged:SKILL.md": true,
+  "source_unchanged:references/checklist.md": true,
+  "resource_preserved:references/checklist.md": true,
+  "source_unchanged:scripts/diagnose.py": true,
+  "resource_preserved:scripts/diagnose.py": true,
+  "adapted_skill_exists": true,
+  "report_exists": true,
+  "diagnostic_not_executed": true,
+  "invocation_control_preserved": true,
+  "directory_name_matches": true
+}

@@ -1,0 +1,9 @@
+{
+  "model_requested": "gpt-6-astra",
+  "reasoning_effort": "medium",
+  "cli_version": "0.157.1",
+  "source_fixture": "evals/fixtures/review-method",
+  "sandbox": "workspace-write",
+  "session_mode": "ephemeral",
+  "user_config": "ignored"
+}

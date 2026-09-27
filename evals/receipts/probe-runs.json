@@ -1,0 +1,22 @@
+[
+  {
+    "variant": "original",
+    "probe": "interview",
+    "exit_code": 0
+  },
+  {
+    "variant": "original",
+    "probe": "method",
+    "exit_code": 0
+  },
+  {
+    "variant": "adapted",
+    "probe": "interview",
+    "exit_code": 0
+  },
+  {
+    "variant": "adapted",
+    "probe": "method",
+    "exit_code": 0
+  }
+]

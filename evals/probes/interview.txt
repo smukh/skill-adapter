@@ -1,0 +1,1 @@
+Apply the attached skill to this request. We have a bug report: expired discount codes sometimes work, but product has not decided whether expiry means midnight UTC or the customer's local midnight. Fix it. Do not actually edit files in this probe. Give the first response you would send to the user.
