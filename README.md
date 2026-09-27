@@ -32,6 +32,28 @@ You can also request your current model, or ask the agent to use the adapted cop
 
 ## Install
 
+Install with the [skills CLI](https://skills.sh/docs/cli):
+
+```sh
+npx skills add smukh/skill-adapter --skill skill-adapter
+```
+
+Choose your agent and installation scope when prompted. To install directly into a Codex project, run this from the project directory:
+
+```sh
+npx skills add smukh/skill-adapter --skill skill-adapter --agent codex --yes
+```
+
+Add `--global` for a user-wide installation. To preview discovery without installing:
+
+```sh
+npx skills add smukh/skill-adapter --list
+```
+
+The CLI installs the skill directory with its supporting references and scripts. Use a Node.js version supported by the CLI; `skills@1.7.0` requires Node.js 22.20.0 or newer.
+
+### Manual installation
+
 From a local clone, copy the **whole** `skills/skill-adapter/` directory, including references and scripts, into your agent's skill location.
 
 | Agent | Install | Invoke |

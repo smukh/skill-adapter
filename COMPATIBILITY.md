@@ -11,3 +11,7 @@ This package supports Codex, Claude Code, Kimi Code CLI, Hermes, and Cursor thro
 - Claude and Kimi profile behavioral quality: untested. Kimi guidance is conservative because model-specific optimization evidence is unavailable.
 
 The whole skill directory must travel together. Unknown model IDs use generic guidance; ambiguous identities require clarification. No skill can guarantee precedence over every other skill or unload prior instructions from a running conversation.
+
+## Skills CLI installation
+
+On 2026-09-27, `skills@1.7.0` discovered exactly one skill from `smukh/skill-adapter`. A project-local installation with `--skill skill-adapter --agent codex --yes` completed in an isolated directory. All 9 package files matched the source byte-for-byte, including profiles, references, and the identity helper. This verifies CLI discovery and copying, not skills.sh leaderboard indexing or live invocation on every host.
